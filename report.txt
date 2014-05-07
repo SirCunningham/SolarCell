@@ -24,7 +24,7 @@ A solar cell can be described as a $p-n$ junction, which is an interface between
 %\begin{figure}[h]
 %\centering
 %\includegraphics[width=\textwidth]{solarcell.jpg}
-%\caption{Basic p-n junction solar cell and charge transport phenomena.}
+%\caption{Basic p-n junction solar cell and charge transport phenomena. (Change description.)}
 %\label{fig:solarcell}
 %\end{figure}
 
@@ -32,9 +32,7 @@ Free electron-hole pairs can be generated in a semiconductor when it is exposed 
 
 \section{Experimental procedure}
 
-How we examined the solar cells. \\
-
-The lamp was $60$ W. The area of the solar cell was $2.3 \times 6.0$ cm$^2$.
+The solar cell we used in this laboration is a polycrystalline silicon thin film. The area of the solar cell was $2.3 \times 6.0$ cm$^2$. A $60$ W standard desk lamp provided the illumination.
 
 \section{Measurement results}
 
@@ -46,6 +44,6 @@ Not exactly as expected. The correlation should obey $4\pi R^2\Phi = P$, where $
 
 \section{Conclusions}
 
-Text...
+It works.
 
 \end{document}
