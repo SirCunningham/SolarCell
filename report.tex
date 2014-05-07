@@ -40,26 +40,57 @@ The solar cell we used in this laboration is a polycrystalline silicon thin film
 Diagrams... Fit to the diode equation $I = I_{sat}\left(1-\exp\left(-\frac{eV}{nk_BT}\right)\right)$, where $n$ is the ideality factor.
 
 \begin{figure}[h!]
+  \label{ivsun}
   \begin{center}
     \includegraphics[scale=0.2]{IvsUnoIlumination.jpg}
   \end{center}
   \caption{Current as function of voltage. Fitted according to the diode equation.}
 \end{figure}
 \begin{figure}[h!]
+  \label{pvsv}
   \begin{center}
     \includegraphics[scale=0.2]{PvsV.jpg}
   \end{center}
   \caption{Power as function of voltage for different distances from lamp to solar cell.}
 \end{figure}
 \begin{figure}[h!]
+  \label{ivsu}
   \begin{center}
     \includegraphics[scale=0.2]{IvsU.jpg}
   \end{center}
   \caption{Current as function of voltage for different distances from lamp to solar cell.}
 \end{figure}
+\begin{figure}[h!]
+  \label{pmaxvsf}
+  \begin{center}
+    \includegraphics[scale=0.2]{pmaxvsf.jpg}
+  \end{center}
+  \caption{Current as function of voltage for different distances from lamp to solar cell.}
+\end{figure}
 \section{Discussion of the results}
+The power delivered to the solar cell should of course satisfy $4\pi R^2\Phi = P$, where $P$ is the effect. (We measured the maximal effect $P_{max}$). Hence, if we fit the curve according to the formula $P_{max}=kf(d)/f(0)$, where $k$ is a proportional constant, $f(d)=\frac{1}{(d+x_0)^2}$ and $d$ the distance from the lamp to the solar cell, we should obtain something that is linear, see figure \ref{pmaxvsf}. We introduced $x_0$ in order to compensate for systematic errors and found that $k=1.76\cdot 10^{-6}$ wm${}^2$ and $x_0=4.98$ cm, however some differences still remain; some possibly arising from the fact that the lamp is not a perfect sphere.
 
-Not exactly as expected. The correlation should obey $4\pi R^2\Phi = P$, where $P$ is the effect. (We measured the maximal effect $P_{max}$).
+As a way to check the results, consider the following: Approximate the solar cell together with the Power Cassy as a simple circuit, where the solar cell and the Power Cassy has resistance $R_0$ and $R$, respectively. 
+By Ohm's law, we know that $U=RI$ and $P=IR^2$. Then, since $U_0=(R+R_0)I$, it follows that $P=RI^2=R\left( \frac{U_0}{R+R_0} \right)^2$.
+The voltage at maximum power it therefore given by
+\begin{displaymath}
+  0=\frac{dP}{dR}=-\frac{U_0^2(R-R_0)}{(R+R_0)^3}\iff R=R_0.
+\end{displaymath}
+
+In this case, the voltage is also maximal and given by $U_{max}=R_0I=R_0\frac{U_0}{R_0+R_0}=\frac{U_0}{2}$.
+From figure \ref{pvsv}, we see that $U_{max}\approx -0.4$ V and from figure \ref{ivsu}, we see that $U_0\approx 0.5$ V, which does not at all agree with theory.
+
+The most ideal solar cell are of course those whose energy gap coincide with the sun. Now, from theory, we know that the maximum efficiency is given by $E_g/(k_BT)\approx 2.3$ and since the temperature of the photosphere is approximately $5800$ K, the best solar cells are those with an energy gap of around $1.15$ eV.
+Our solar cell with an energy gap of around $1.11$ eV at $300$ K is therefore an excellent choice.
+
+In this report, we considered a $60$ W light bulb with an effective temperature around $3000$ K. This implies that $E_g/(k_B T)\approx 4.3$ so that theory gives us a efficiency of $25$\%.
+Also, we know that the theoretical upper limit for the efficiency $\eta=\frac{\text{output power}}{\text{input power}}$ is given by $\frac{E_g}{k_B T}\approx 2.3$.
+Obviously, we do not reach $25$\%, in fact, it is considerably lower as the following shows.
+The area of the solar cell was $13.8$ cm${}^2$ and as a rough approximation, assume that the wavelength of the $60$ W light bulb to is $1100$ nm. Then elementary physics implies that it emits approximately $3.3\cdot 10^{20}$ photons per second. Assuming that they are distributed spherically and perfectly aligns with the solar cell, at a distance of $37.5$ cm, $13.8/(4\pi 37.5^2)\approx 0.078 \%$ of the photons hit the solar cell.
+Thus, the efficiency is 
+\begin{displaymath}
+\frac{0.078\cdot 10^{-2}\cdot 3.3\cdot 10^{20}\cdot 6.6\cdot 10^{-34}\cdot 3\cdot 10^8}{1100\cdot 10^{-9}\cdot 0.033 }\approx
+\end{displaymath}
 
 \section{Conclusions}
 
