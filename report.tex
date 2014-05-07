@@ -4,7 +4,8 @@
 \usepackage[utf8]{inputenc}
 \usepackage{amsmath}
 \usepackage{graphicx}
-\usepackage[colorinlistoftodos]{todonotes}
+\usepackage{epstopdf}
+%\usepackage[colorinlistoftodos]{todonotes}
 
 \title{Solar cell}
 
@@ -38,6 +39,24 @@ The solar cell we used in this laboration is a polycrystalline silicon thin film
 
 Diagrams... Fit to the diode equation $I = I_{sat}\left(1-\exp\left(-\frac{eV}{nk_BT}\right)\right)$, where $n$ is the ideality factor.
 
+\begin{figure}[h!]
+  \begin{center}
+    \includegraphics[scale=0.2]{IvsUnoIlumination.jpg}
+  \end{center}
+  \caption{Current as function of voltage. Fitted according to the diode equation.}
+\end{figure}
+\begin{figure}[h!]
+  \begin{center}
+    \includegraphics[scale=0.2]{PvsV.jpg}
+  \end{center}
+  \caption{Power as function of voltage for different distances from lamp to solar cell.}
+\end{figure}
+\begin{figure}[h!]
+  \begin{center}
+    \includegraphics[scale=0.2]{IvsU.jpg}
+  \end{center}
+  \caption{Current as function of voltage for different distances from lamp to solar cell.}
+\end{figure}
 \section{Discussion of the results}
 
 Not exactly as expected. The correlation should obey $4\pi R^2\Phi = P$, where $P$ is the effect. (We measured the maximal effect $P_{max}$).
