@@ -35,7 +35,7 @@ Diagrams... Fit to the diode equation $I = I_{sat}\left(1-\exp\left(-\frac{eV}{n
 
 \section{Discussion of the results}
 
-Not exactly as expected. The correlation should obey $4\pi R^2\Phi = P$, where $P$ is the effect. (We measured the maximal effect $P_{max}$).
+Not exactly as expected. The correlation should obey $4\pi R^2\Phi = P$, where $P$ is the effect. (We measured the maximal effect $P_{max}$.
 
 \section{Conclusions}
 
