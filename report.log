@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.6.14)  8 MAY 2014 12:29
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.6.20)  8 MAY 2014 13:03
 entering extended mode
  %&-line parsing enabled.
 **report.tex
@@ -458,31 +458,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 46--47
 <IvsUnoIlumination.jpg, id=13, 1429.34pt x 797.98125pt>
 File: IvsUnoIlumination.jpg Graphic file (type jpg)
 
-<use IvsUnoIlumination.jpg>
-Overfull \hbox (83.80531pt too wide) in paragraph at lines 58--59
- [] 
- []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<PvsV.jpg, id=14, 1429.34pt x 797.98125pt>
+<use IvsUnoIlumination.jpg> <PvsV.jpg, id=14, 1429.34pt x 797.98125pt>
 File: PvsV.jpg Graphic file (type jpg)
- <use PvsV.jpg>
-Overfull \hbox (83.80531pt too wide) in paragraph at lines 66--67
- [] 
- []
 
+<use PvsV.jpg>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 <IvsU.jpg, id=15, 1429.34pt x 797.98125pt>
 File: IvsU.jpg Graphic file (type jpg)
  <use IvsU.jpg>
-Overfull \hbox (83.80531pt too wide) in paragraph at lines 74--75
- [] 
- []
-
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -492,34 +477,30 @@ File: pmaxvsf.jpg Graphic file (type jpg)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[2]
-
-LaTeX Warning: Text page 3 contains only floats.
-
-[3 <./IvsUnoIlumination.jpg> <./PvsV.jpg>] [4 <./IvsU.jpg> <./pmaxvsf.jpg>]
-[5] (./report.aux) ) 
+[2 <./IvsUnoIlumination.jpg>] [3 <./PvsV.jpg> <./IvsU.jpg>] [4 <./pmaxvsf.jpg>]
+(./report.aux) ) 
 Here is how much of TeX's memory you used:
  2372 strings out of 493848
  29615 string characters out of 1152823
- 94130 words of memory out of 3000000
+ 92130 words of memory out of 3000000
  5614 multiletter control sequences out of 15000+50000
  8408 words of font info for 31 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  41i,6n,23p,757b,248s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cm
-bx12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmex10.pfb></
-usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/t
-exmf-texlive/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texmf-texlive
-/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-texlive/fonts/type1
-/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsf
-onts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr1
-7.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/s
-hare/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-te
-xlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts
-/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on report.pdf (5 pages, 463905 bytes).
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12
+.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/
+share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf
+-texlive/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texmf-texlive/fon
+ts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-texlive/fonts/type1/pub
+lic/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts
+/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr17.pf
+b></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share
+/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-texliv
+e/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/typ
+e1/public/amsfonts/cm/cmsy7.pfb>
+Output written on report.pdf (4 pages, 463904 bytes).
 PDF statistics:
- 70 PDF objects out of 1000 (max. 8388607)
+ 67 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
