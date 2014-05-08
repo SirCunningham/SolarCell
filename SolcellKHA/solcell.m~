@@ -19,11 +19,8 @@ legend('measured values', 'fitted curve');
 %ideality factor n
 e = 1.60217657 * 10^(-19);
 Isat = params(1);
-V0 = params(2);
-kb = 1.3806488*10^(-23);
-T= 300;
-n = V0*e/(kb*T);
-%-----
+Vsat = params(2);
+
 % colors = cell(11, 1);
 % colors{1}='r';
 % colors{2}='k';
