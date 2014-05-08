@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.6.20)  8 MAY 2014 14:54
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.6.20)  8 MAY 2014 15:03
 entering extended mode
  %&-line parsing enabled.
 **report.tex
@@ -446,10 +446,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 41--42
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-
-LaTeX Warning: Reference `ivsun' on page 2 undefined on input line 43.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 43--44
 
  []
@@ -459,54 +455,64 @@ Underfull \hbox (badness 10000) in paragraph at lines 45--46
 
  []
 
+<IvsUnoIlumination.jpg, id=13, 1429.34pt x 797.98125pt>
+File: IvsUnoIlumination.jpg Graphic file (type jpg)
 
-LaTeX Warning: Reference `pmaxvsf' on page 2 undefined on input line 110.
+<use IvsUnoIlumination.jpg>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<PvsV.jpg, id=14, 1429.34pt x 797.98125pt>
+File: PvsV.jpg Graphic file (type jpg)
+ <use PvsV.jpg>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<IvsU.jpg, id=15, 1429.34pt x 797.98125pt>
+File: IvsU.jpg Graphic file (type jpg)
+ <use IvsU.jpg>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<pmaxvsf.jpg, id=16, 562.1pt x 421.575pt>
+File: pmaxvsf.jpg Graphic file (type jpg)
+ <use pmaxvsf.jpg>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 110--111
+Underfull \hbox (badness 10000) in paragraph at lines 109--110
 
  []
 
-[2]
-
-LaTeX Warning: Reference `pvsv' on page 3 undefined on input line 121.
-
-
-LaTeX Warning: Reference `ivsu' on page 3 undefined on input line 121.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 123--125
+[2] [3 <./IvsUnoIlumination.jpg> <./PvsV.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 122--124
 
  []
 
-[3] (./report.aux)
-
-LaTeX Warning: There were undefined references.
-
- ) 
+[4 <./IvsU.jpg> <./pmaxvsf.jpg>] [5] (./report.aux) ) 
 Here is how much of TeX's memory you used:
- 2354 strings out of 493848
- 29321 string characters out of 1152823
- 93106 words of memory out of 3000000
- 5600 multiletter control sequences out of 15000+50000
- 8716 words of font info for 32 fonts, out of 3000000 for 9000
+ 2374 strings out of 493848
+ 29624 string characters out of 1152823
+ 95138 words of memory out of 3000000
+ 5615 multiletter control sequences out of 15000+50000
+ 8408 words of font info for 31 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 41i,10n,23p,757b,194s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/sha
-re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-te
-xlive/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-texlive/fonts
-/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-texlive/fonts/type1/publ
-ic/amsfonts/cm/cmmi5.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/
-cm/cmmi7.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb
-></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share
-/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-texli
-ve/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texmf-texlive/fonts/type
-1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-texlive/fonts/type1/public/amsf
-onts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cms
-y7.pfb>
-Output written on report.pdf (3 pages, 149340 bytes).
+ 41i,10n,23p,757b,255s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/share/texmf-texlive/
+fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-texlive/fonts/type1
+/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-texlive/fonts/type1/public/ams
+fonts/cm/cmmi10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cm
+mi5.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi7.pfb></us
+r/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texm
+f-texlive/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fo
+nts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-texlive/fonts/type1/pu
+blic/amsfonts/cm/cmr5.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts
+/cm/cmr7.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pf
+b></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on report.pdf (5 pages, 461339 bytes).
 PDF statistics:
- 64 PDF objects out of 1000 (max. 8388607)
+ 70 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
