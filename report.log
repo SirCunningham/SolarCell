@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.6.20)  8 MAY 2014 15:20
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.6.20)  8 MAY 2014 15:26
 entering extended mode
  %&-line parsing enabled.
 **report.tex
@@ -437,7 +437,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 44--45
 
 File: IvsUnoIlumination.eps Graphic file (type eps)
 <IvsUnoIlumination.eps>
-Overfull \hbox (12.33499pt too wide) in paragraph at lines 76--77
+Overfull \hbox (12.33499pt too wide) in paragraph at lines 75--76
  [] 
  []
 
@@ -446,7 +446,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 File: PvsV.eps Graphic file (type eps)
 <PvsV.eps>
-Overfull \hbox (12.33499pt too wide) in paragraph at lines 84--85
+Overfull \hbox (12.33499pt too wide) in paragraph at lines 83--84
  [] 
  []
 
@@ -455,7 +455,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 File: IvsU.eps Graphic file (type eps)
 <IvsU.eps>
-Overfull \hbox (12.33499pt too wide) in paragraph at lines 92--93
+Overfull \hbox (12.33499pt too wide) in paragraph at lines 91--92
  [] 
  []
 
@@ -467,24 +467,36 @@ File: pmaxvsf.eps Graphic file (type eps)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 108--109
-
- []
-
 [2] [3] [4]
-Underfull \hbox (badness 10000) in paragraph at lines 121--123
+Underfull \hbox (badness 10000) in paragraph at lines 109--110
 
  []
 
-[5] (./report.aux) ) 
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--124
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--138
+
+ []
+
+[5
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 139--141
+
+ []
+
+[6] (./report.aux) ) 
 Here is how much of TeX's memory you used:
  1920 strings out of 493849
  23249 string characters out of 1152846
- 88328 words of memory out of 3000000
+ 87328 words of memory out of 3000000
  5172 multiletter control sequences out of 15000+50000
  8408 words of font info for 31 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 41i,10n,21p,757b,299s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,9n,21p,757b,295s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on report.dvi (5 pages, 13320 bytes).
+Output written on report.dvi (6 pages, 14444 bytes).
