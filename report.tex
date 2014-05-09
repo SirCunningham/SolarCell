@@ -1,19 +1,51 @@
-\documentclass[a4paper]{article}
-\usepackage[english]{babel}
+\documentclass[12pt,a4paper]{article}
+
 \usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
 \usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{ae}
+\usepackage{units}
+\usepackage{icomma}
+\usepackage{color}
 \usepackage{graphicx}
+\usepackage{bbm}
+\usepackage{upgreek}
+\usepackage{amsthm}
+\usepackage{fullpage}
+\usepackage{mathtools}
+\usepackage{psfrag}
+\usepackage{caption}
+\usepackage{fancyhdr}
+\usepackage[table]{xcolor}
+\usepackage{longtable}
+\usepackage{hyperref}
+\usepackage{tocloft}
 \usepackage{epstopdf}
+\renewcommand{\cftdotsep}{\cftnodots}
+\setlength\parindent{0pt}
 
 \title{IM2601 Solid State Physics \\ Lab exercise 3: Photovoltaic effect: Diode IV-characteristic}
 
-\author{Karl Amundsson \\ Alexander Bielik \\ Hannes Lindström}
+\author{Karl Amundsson karlam@kth.se\\
+Alexander Bielik abielik@kth.se\\
+Hannes Lindström halinds@kth.se}
 
 \date{\today}
 
 \begin{document}
 \maketitle
+\thispagestyle{empty}
+
 \newpage
+
+\tableofcontents
+\thispagestyle{empty}
+
+\newpage
+\setcounter{page}{1}
+
 
 \section{Introduction}
 
@@ -74,7 +106,7 @@ We finally measured the power delivered from the solar cell for each of the elev
 \vfill
 \begin{figure}[h!]
   \begin{center}
-    \includegraphics[scale=0.25]{IvsUnoIlumination.eps}
+    \includegraphics[scale=0.07]{IvsUnoIlumination.png}
   \end{center}
   \caption{Current as function of voltage. Fitted according to the diode equation.}
   \label{ivsun}
@@ -82,7 +114,7 @@ We finally measured the power delivered from the solar cell for each of the elev
 
 \begin{figure}[h!]
   \begin{center}
-    \includegraphics[scale=0.25]{PvsV.eps}
+    \includegraphics[scale=0.07]{PvsV.png}
   \end{center}
   \caption{Power as function of voltage for different distances from lamp to solar cell.}
   \label{pvsv}
@@ -90,7 +122,7 @@ We finally measured the power delivered from the solar cell for each of the elev
 
 \begin{figure}[h!]
   \begin{center}
-    \includegraphics[scale=0.25]{IvsU.eps}
+    \includegraphics[scale=0.07]{IvsU.png}
   \end{center}
   \caption{Current as function of voltage for different distances from lamp to solar cell.}
   \label{ivsu}
@@ -98,7 +130,7 @@ We finally measured the power delivered from the solar cell for each of the elev
 
 \begin{figure}[!h]
   \begin{center}
-    \includegraphics[scale=0.6]{pmaxvsf.eps}
+    \includegraphics[scale=0.2]{pmaxvsf.png}
   \end{center}
   \caption{Current as function of voltage for different distances from lamp to solar cell.}
   \label{pmaxvsf}
@@ -142,4 +174,11 @@ We found the ideality factor to be $n = \frac{|q|V_0}{k_BT} = 1.93$, which can b
 
 We also note that our methodology was not free of errors. We approximated the distribution of the light from the lamp as spherical, while in reality a lampshade focused the light into a cone.
 
+\begin{thebibliography}{9}
+\bibitem{kittel} C. Kittel, "Superconductivity" in \emph{Introduction to Solid State Physics}, Hoboken, NJ: John Wiley \& Sons, 2005, pp. 257-298.
+\bibitem{lab_PM} R. Fors, \emph{Photovoltaic effect: Diode IV-characteristic}, KTH Condensed Matter Physics, 2005.
+\bibitem{YBCO} Wikipedia: Yttrium barium copper oxide. Available at \url{http://en.wikipedia.org/wiki/Yttrium_barium_copper_oxide}.
+\end{thebibliography}
+
 \end{document}
+

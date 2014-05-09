@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.1.13)  9 MAY 2014 15:59
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.1.13)  9 MAY 2014 15:45
 entering extended mode
  %&-line parsing enabled.
-**report.tex
-(./report.tex
+**supraledning.tex
+(./supraledning.tex
 LaTeX2e <2009/09/24>
 Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
 yphenation, farsi, arabic, croatian, bulgarian, ukrainian, russian, czech, slov
@@ -703,23 +703,23 @@ G,.JBIG2,.JB2,.eps]
 (/usr/share/texmf-texlive/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2009/10/26 v1.1 Configuration of epstopdf for TeX Live
 )))
-(./report.aux)
-\openout1 = `report.aux'.
+(./supraledning.aux)
+\openout1 = `supraledning.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
  (/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count123
@@ -740,7 +740,7 @@ Package caption Info: longtable package is loaded.
 Package: ltcaption 2008/03/28 v1.2 longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 37.
+Package hyperref Info: Link coloring OFF on input line 29.
 
 (/usr/share/texmf-texlive/tex/latex/hyperref/nameref.sty
 Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
@@ -750,19 +750,18 @@ Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
 )
 \c@section@level=\count128
 )
-LaTeX Info: Redefining \ref on input line 37.
-LaTeX Info: Redefining \pageref on input line 37.
- (./report.out)
-(./report.out)
+LaTeX Info: Redefining \ref on input line 29.
+LaTeX Info: Redefining \pageref on input line 29.
+ (./supraledning.out) (./supraledning.out)
 \@outlinefile=\write4
-\openout4 = `report.out'.
+\openout4 = `supraledning.out'.
 
 \AtBeginShipoutBox=\box33
-LaTeX Font Info:    Try loading font information for U+msa on input line 39.
+LaTeX Font Info:    Try loading font information for U+msa on input line 38.
  (/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 39.
+LaTeX Font Info:    Try loading font information for U+msb on input line 38.
 
 (/usr/share/texmf-texlive/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
@@ -770,37 +769,24 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 Non-PDF special ignored!
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-(./report.toc)
+(./supraledning.toc)
 \tf@toc=\write5
-\openout5 = `report.toc'.
+\openout5 = `supraledning.toc'.
 
  [2]
+Underfull \hbox (badness 10000) in paragraph at lines 50--51
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 52--53
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 54--55
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 71--72
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 73--74
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 75--76
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 77--78
+<setup.png, id=43, 1203.49625pt x 805.0075pt>
+File: setup.png Graphic file (type png)
+ <use setup.png>
+Underfull \hbox (badness 10000) in paragraph at lines 67--68
 
  []
 
@@ -808,81 +794,59 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.78 
-      [1]pdfTeX warning (ext4): destination with the same identifier (name{page
-.2}) has been already used, duplicate ignored
+l.68 
+      [1 <./setup.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 69--70
+
+ []
+
+<results.png, id=60, 422.32782pt x 316.18124pt>
+File: results.png Graphic file (type png)
+ <use results.png>
+Underfull \hbox (badness 10000) in paragraph at lines 85--86
+
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
+been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.104 \newpage
-               [2] <IvsUnoIlumination.png, id=49, 5955.24875pt x 3325.42375pt>
-File: IvsUnoIlumination.png Graphic file (type png)
-
-<use IvsUnoIlumination.png> <PvsV.png, id=50, 5955.24875pt x 3325.42375pt>
-File: PvsV.png Graphic file (type png)
-
-<use PvsV.png> <IvsU.png, id=51, 5955.24875pt x 3325.42375pt>
-File: IvsU.png Graphic file (type png)
- <use IvsU.png>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<pmaxvsf.png, id=52, 1982.40625pt x 1488.56125pt>
-File: pmaxvsf.png Graphic file (type png)
- <use pmaxvsf.png>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[3 <./IvsUnoIlumination.png (PNG copy)> <./PvsV.png (PNG copy)>] [4 <./IvsU.png
- (PNG copy)> <./pmaxvsf.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 143--144
+l.86 
+      [2 <./results.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 87--88
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 156--158
+Underfull \hbox (badness 10000) in paragraph at lines 93--94
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 171--172
-
- []
-
-[5
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 173--174
-
- []
-
-LaTeX Font Info:    Try loading font information for T1+aett on input line 180.
+LaTeX Font Info:    Try loading font information for T1+aett on input line 100.
 
 (/usr/share/texmf-texlive/tex/latex/ae/t1aett.fd
 File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
-) [6] (./report.aux) ) 
+) [3] (./supraledning.aux) ) 
 Here is how much of TeX's memory you used:
- 8375 strings out of 493848
- 118583 string characters out of 1152823
- 213309 words of memory out of 3000000
- 11398 multiletter control sequences out of 15000+50000
- 34776 words of font info for 83 fonts, out of 3000000 for 9000
+ 8352 strings out of 493848
+ 118379 string characters out of 1152823
+ 209309 words of memory out of 3000000
+ 11385 multiletter control sequences out of 15000+50000
+ 31775 words of font info for 81 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 41i,11n,43p,741b,315s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/
-cmbx12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmex10.pfb>
-</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share
-/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-texli
-ve/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-texlive/fonts/typ
-e1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public/am
-sfonts/cm/cmr17.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cm
-r6.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/
-share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf
--texlive/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-texlive/fon
-ts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf-texlive/fonts/type1/pu
-blic/amsfonts/cm/cmtt12.pfb>
-Output written on report.pdf (8 pages, 1243499 bytes).
+ 41i,7n,43p,653b,332s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/share/texmf-texlive/fonts/type1/public/amsfon
+ts/cm/cmbx12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi1
+2.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/
+share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-
+texlive/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-texlive/font
+s/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-texlive/fonts/type1/publi
+c/amsfonts/cm/cmsy8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/c
+m/cmti12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmtt12.pf
+b></usr/share/texmf-texlive/fonts/type1/public/amsfonts/euler/eurm10.pfb>
+Output written on supraledning.pdf (5 pages, 275298 bytes).
 PDF statistics:
- 136 PDF objects out of 1000 (max. 8388607)
- 20 named destinations out of 1000 (max. 500000)
- 53 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 113 PDF objects out of 1000 (max. 8388607)
+ 15 named destinations out of 1000 (max. 500000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
 
