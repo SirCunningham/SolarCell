@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.1.13)  9 MAY 2014 17:33
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.1.13)  9 MAY 2014 18:06
 entering extended mode
  %&-line parsing enabled.
 **report.tex
@@ -817,19 +817,19 @@ l.78
 <to be read again> 
                    \relax 
 l.104 \newpage
-               [2] <IvsUnoIlumination.png, id=49, 5955.24875pt x 3325.42375pt>
+               [2] <IvsUnoIlumination.png, id=54, 5955.24875pt x 3325.42375pt>
 File: IvsUnoIlumination.png Graphic file (type png)
 
-<use IvsUnoIlumination.png> <PvsV.png, id=50, 5955.24875pt x 3325.42375pt>
+<use IvsUnoIlumination.png> <PvsV.png, id=55, 5955.24875pt x 3325.42375pt>
 File: PvsV.png Graphic file (type png)
 
-<use PvsV.png> <IvsU.png, id=51, 5955.24875pt x 3325.42375pt>
+<use PvsV.png> <IvsU.png, id=56, 5955.24875pt x 3325.42375pt>
 File: IvsU.png Graphic file (type png)
  <use IvsU.png>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<pmaxvsf.png, id=52, 1982.40625pt x 1488.56125pt>
+<pmaxvsf.png, id=57, 1982.40625pt x 1488.56125pt>
 File: pmaxvsf.png Graphic file (type png)
  <use pmaxvsf.png>
 
@@ -858,7 +858,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 173--174
 
  []
 
-LaTeX Font Info:    Try loading font information for T1+aett on input line 180.
+LaTeX Font Info:    Try loading font information for T1+aett on input line 182.
 
 (/usr/share/texmf-texlive/tex/latex/ae/t1aett.fd
 File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
@@ -868,10 +868,10 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 8376 strings out of 493848
- 118589 string characters out of 1152823
+ 8378 strings out of 493848
+ 118609 string characters out of 1152823
  213309 words of memory out of 3000000
- 11399 multiletter control sequences out of 15000+50000
+ 11400 multiletter control sequences out of 15000+50000
  34776 words of font info for 83 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  41i,11n,43p,741b,315s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -887,9 +887,9 @@ fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1
 /public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsf
 onts/cm/cmti12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmt
 t12.pfb>
-Output written on report.pdf (8 pages, 1241345 bytes).
+Output written on report.pdf (8 pages, 1242194 bytes).
 PDF statistics:
- 138 PDF objects out of 1000 (max. 8388607)
- 20 named destinations out of 1000 (max. 500000)
- 53 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 143 PDF objects out of 1000 (max. 8388607)
+ 21 named destinations out of 1000 (max. 500000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
 
