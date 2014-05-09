@@ -19,10 +19,10 @@ legend('measured values', 'fitted curve');
 %ideality factor n
 e = 1.60217657 * 10^(-19);
 Isat = params(1);
-V0 = params(2);
+Vsat = params(2);
 kb = 1.3806488*10^(-23);
 T= 300;
-n = V0*e/(kb*T);
+n = Vsat*e/(kb*T);
 %-----
 % colors = cell(11, 1);
 % colors{1}='r';
@@ -57,8 +57,8 @@ maxpowers = [0,0,0,0,0,0,0,0,0,0,0];
 colors = hsv(12);
 for i=1:11
     data = load(xss{i});
-    U = data(:, 2);
-    U2 = U(3: 5: end);
+    U1 = data(:, 2);
+    U2 = U1(3: 5: end);
     P = data(:, 6);
     P2 = P(3: 5: end);
     maxpowers(i)= max(P2)
@@ -73,10 +73,10 @@ xlabel('Voltage [V]')
 ylabel('Current [I]')
 for i=1:11
     data = load(xss{i});
-    U = data(:, 2);
-    U2 = U(3: 5: end);
-    I = data(:, 4);
-    I2 = I(3: 5: end);
+    U1 = data(:, 2);
+    U2 = U1(3: 5: end);
+    I1 = data(:, 4);
+    I2 = I1(3: 5: end);
     plot(U2, I2, 'color', colors(i, :))
     hold on
 end
