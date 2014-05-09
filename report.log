@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Arch Linux) (format=pdflatex 2014.3.13)  9 MAY 2014 20:54
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Arch Linux) (format=pdflatex 2014.3.13)  9 MAY 2014 20:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -912,10 +912,10 @@ blic/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></u
 sr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on report.pdf (8 pages, 1105071 bytes).
+Output written on report.pdf (8 pages, 1105143 bytes).
 PDF statistics:
- 147 PDF objects out of 1000 (max. 8388607)
- 118 compressed objects within 2 object streams
+ 148 PDF objects out of 1000 (max. 8388607)
+ 119 compressed objects within 2 object streams
  21 named destinations out of 1000 (max. 500000)
  61 words of extra memory for PDF output out of 10000 (max. 10000000)
 
