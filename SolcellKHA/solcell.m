@@ -6,9 +6,19 @@ initials = rand(1, 2)
 options = optimset('Display', 'iter')
 params = fminsearch(@diode, initials, options, U, I);
 
+data2 = load('VaxelIntro0.txt');
+T = data2(:, 1);
+II = data2(:, 3);
+xlabel('Time [ms]')
+ylabel('Current [A]')
+plot(T, II, '-')
+xlabel('Time [ms]')
+ylabel('Current [A]')
+figure;
+
 plot(U, I)
-xlabel('Voltage [V])')
-ylabel('Current [A])')
+xlabel('Voltage [V]')
+ylabel('Current [A]')
 
 f = @(x) params(1)*(1-exp(-x/params(2)));
 hold on

@@ -72,7 +72,7 @@ which corresponds to the wavelength $1100$ nm, which lies in the infrared spectr
 
 A Power Cassy was used to apply a selected voltage over the solar cell and measure the current output. The Power Cassy acted as an ideal voltage source. The area of the solar cell was $2.3$ cm $\times$ $6.0$ cm. The solar cell was placed under the light source, a $60$ W desk lamp, at distances varying between $12.5$ cm and $62.5$ cm. \\
 
-We first made a measurement with the lamp turned off and observed that the current was next to zero, as expected; see figure \ref{ivsun} for reference. We next performed a measurement with the lamp turned on and observed a sine curve. This was also expected, since a standard wall outlet outputs an alternating current. \\
+We first made a measurement with the lamp turned off and observed that the current was next to zero, as expected; see figure \ref{ivsun} for reference. We next performed a measurement with the lamp turned on and observed a sine curve with period $10$ ms, which corresponds to a frequency of $100$ Hz; see figure \ref{ivsui}. This was also expected, since a standard wall outlet outputs an alternating current at $50$ Hz, implying that the output of the lamp has a frequency of $100$ Hz.\\
 
 We now set the Power Cassy to produce triangular waves with amplitude $0.57$ V and frequency $0.2$ Hz. Once again, we made measurements with the lamp turned off and then with the lamp turned on. We averaged the current $I_{av}$ over $10$ ms to eliminate the sine like curve due to the wall outlet. \\
 
@@ -110,6 +110,14 @@ We finally measured the power delivered from the solar cell for each of the elev
   \end{center}
   \caption{Current as function of voltage without illumination. Fitted according to the diode equation.}
   \label{ivsun}
+\end{figure}
+
+\begin{figure}[h!]
+  \begin{center}
+    \includegraphics[scale=0.07]{vaxelIntro.png}
+  \end{center}
+  \caption{Current as function of time with illumination.}
+  \label{ivsui}
 \end{figure}
 
 \begin{figure}[h!]
@@ -158,10 +166,10 @@ Our solar cell, consisting of silicon, with an energy gap of around $1.11$ eV at
 
 We considered a $60$ W light bulb with an effective temperature of around $3000$ K. This implies that $E_g/(k_B T)\approx 4.3$, so that \cite{lab_PM} gives us an upper limit on the efficiency to be $25$\%.
 Obviously, we do not reach $25$\%, in fact, it ought to be considerably lower. However, to following calculation shows otherwise:
-The area of the solar cell was $13.8$ cm${}^2$ and as a rough approximation, assume that the $60$ W light bulb converts all of its energy into radiation. Assume that they are distributed spherically and perfectly aligns with the solar cell. Then, at a distance of $37.5$ cm, $13.8\cdot 60/(4\pi 37.5^2)\approx 0.044$ W will be absorbed by the solar cell.
+The area of the solar cell was $13.8$ cm${}^2$ and as a rough approximation, assume that the $60$ W light bulb converts all of its energy into radiation. Assume that the light is spherically distributed and perfectly aligned with the solar cell. Then, at a distance of $37.5$ cm, $13.8\cdot 60/(2\pi 37.5^2)\approx 0.088$ W will be absorbed by the solar cell, where we assume that the light is confined to a hemisphere.
 Thus, by table \ref{tab}, the efficiency is
 \begin{displaymath}
-  \frac{0.033}{0.044}\approx 0.74,
+  \frac{0.033}{0.044}\approx 0.37,
 \end{displaymath}
 which is far too high.
 The diode equation was used to relate the current $I$ and the voltage $V$ according to

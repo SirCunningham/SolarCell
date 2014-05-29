@@ -1,8 +1,3 @@
-MIN=0	-1	-0.3	0	
-MAX=0.1	1	0.3	2500	
-SCALE=0.05	0.5	0.1	1000	
-DEC=4	3	4	0	
-DEF="Time" t / ms	"Voltage" U_1 / V	"Current" I_1 / A	"Frequency" f / Hz	
 0	0	0.066	NAN	
 0.2	0	0.0669	NAN	
 0.4	0	0.0675	NAN	

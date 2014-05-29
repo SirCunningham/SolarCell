@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.10.8)  29 MAY 2014 19:45
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.10.8)  29 MAY 2014 21:15
 entering extended mode
  %&-line parsing enabled.
 **report.tex
@@ -799,72 +799,80 @@ Underfull \hbox (badness 10000) in paragraph at lines 75--76
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 77--78
-
- []
-
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.78 
-      [1]pdfTeX warning (ext4): destination with the same identifier (name{page
-.2}) has been already used, duplicate ignored
+l.77 W
+      e now set the Power Cassy to produce triangular waves with amplitude $...
+[1]
+Underfull \hbox (badness 10000) in paragraph at lines 77--78
+
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
+been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.104 \newpage
-               [2] <IvsUnoIlumination.png, id=56, 5955.24875pt x 3325.42375pt>
+               [2] <IvsUnoIlumination.png, id=58, 5721.375pt x 3437.84375pt>
 File: IvsUnoIlumination.png Graphic file (type png)
 
-<use IvsUnoIlumination.png> <PvsV.png, id=57, 5955.24875pt x 3325.42375pt>
+<use IvsUnoIlumination.png> <vaxelIntro.png, id=59, 5721.375pt x 3437.84375pt>
+File: vaxelIntro.png Graphic file (type png)
+
+<use vaxelIntro.png> <PvsV.png, id=60, 5955.24875pt x 3325.42375pt>
 File: PvsV.png Graphic file (type png)
 
-<use PvsV.png> <IvsU.png, id=58, 5955.24875pt x 3325.42375pt>
+<use PvsV.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<IvsU.png, id=61, 5955.24875pt x 3325.42375pt>
 File: IvsU.png Graphic file (type png)
  <use IvsU.png>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<pmaxvsf.png, id=59, 1982.40625pt x 1488.56125pt>
+<pmaxvsf.png, id=62, 1982.40625pt x 1488.56125pt>
 File: pmaxvsf.png Graphic file (type png)
  <use pmaxvsf.png>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[3 <./IvsUnoIlumination.png (PNG copy)> <./PvsV.png (PNG copy)>] [4 <./IvsU.png
- (PNG copy)> <./pmaxvsf.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 143--144
+[3 <./IvsUnoIlumination.png (PNG copy)> <./vaxelIntro.png>] [4 <./PvsV.png (PNG
+ copy)> <./IvsU.png (PNG copy)>] [5 <./pmaxvsf.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 151--152
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 156--158
+Underfull \hbox (badness 10000) in paragraph at lines 164--166
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 171--172
+Underfull \hbox (badness 10000) in paragraph at lines 179--180
 
  []
 
-[5
+[6
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 173--174
+Underfull \hbox (badness 10000) in paragraph at lines 181--182
 
  []
 
-LaTeX Font Info:    Try loading font information for T1+aett on input line 184.
+LaTeX Font Info:    Try loading font information for T1+aett on input line 192.
 
 (/usr/share/texmf-texlive/tex/latex/ae/t1aett.fd
 File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
-) [6] (./report.aux) ) 
+) [7] (./report.aux) ) 
 Here is how much of TeX's memory you used:
- 8377 strings out of 493848
- 118601 string characters out of 1152823
+ 8385 strings out of 493848
+ 118719 string characters out of 1152823
  213309 words of memory out of 3000000
- 11399 multiletter control sequences out of 15000+50000
+ 11404 multiletter control sequences out of 15000+50000
  34776 words of font info for 83 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  41i,11n,43p,741b,315s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -880,9 +888,9 @@ share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf
 -texlive/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-texlive/fon
 ts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf-texlive/fonts/type1/pu
 blic/amsfonts/cm/cmtt12.pfb>
-Output written on report.pdf (8 pages, 1242286 bytes).
+Output written on report.pdf (9 pages, 1526122 bytes).
 PDF statistics:
- 145 PDF objects out of 1000 (max. 8388607)
- 21 named destinations out of 1000 (max. 500000)
- 61 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 152 PDF objects out of 1000 (max. 8388607)
+ 23 named destinations out of 1000 (max. 500000)
+ 66 words of extra memory for PDF output out of 10000 (max. 10000000)
 
